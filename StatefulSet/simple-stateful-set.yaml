@@ -31,7 +31,7 @@ spec:
     spec:
       terminationGracePeriodSeconds: 10
       containers:
-        - image: nginx
+        - image: gcr.io/google-samples/hello-app:1.0
           name: nginx
           ports:
             - containerPort: 80
