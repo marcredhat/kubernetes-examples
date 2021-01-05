@@ -37,7 +37,7 @@ spec:
             - containerPort: 80
               name: web
           volumeMounts:
-            - mountPath: /usr/share/nginx/html
+            - mountPath: /persist
               name: www
   volumeClaimTemplates:
     - metadata:
